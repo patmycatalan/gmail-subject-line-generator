@@ -1,7 +1,7 @@
 // Store your API key in script properties for security
 function setApiKey() {
   // You'll run this function once to securely store your API key
-  var apiKey = "AIzaSyC_RwxyEYpYsEbxsFBeTfylzJOjJBocOXg"; // Replace with your actual API key
+  var apiKey = "YOUR-API-KEY"; // Replace with your actual API key
   PropertiesService.getScriptProperties().setProperty('API_KEY', apiKey);
 }
 
